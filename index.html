@@ -14,7 +14,7 @@
 		<div class="h1 text-center">
 			Registration
 		</div>
-		<form class="needs-validation">
+		<form class="needs-validation" novalidate>
 																	<!-- Personal information -->
 			<fieldset>
 				<legend>Pesonal information</legend>
@@ -38,7 +38,7 @@
 
                     <div class="form-row mb-3 justify-content-center">
                     	<div class="col-6 text-center list-group align-items-center">
-	                    	<input type="number" min="0" max="100" placeholder="18" required class="text-center" style="width: 30%">                    		
+	                    	<input type="number" min="0" max="100" placeholder="18" required class="text-center col-auto col-sm-6">                    		
 	                    	<label for="age">How old are you?</label>
                     	</div>
                     </div>
@@ -47,7 +47,7 @@
   			<fieldset>
   				<legend>Registration</legend>
   				<div class="form-row mb-3">
-	  				<div class="col">
+	  				<div class="col-10 col-sm-6">
 	  					<input class="form-control" type="email" name="email" placeholder="example@yourmail.com" required>
 	  					<label for="email">Email</label>
 	  					<div class="invalid-feedback" style="width: 100%;">
@@ -55,7 +55,7 @@
 	                    </div>
 	  				</div>
 	  				
-	  				<div class="col">
+	  				<div class="col-10 col-sm-6">
 
 	  					<input class="form-control" type="password" name="password"  minlength="6" required>
 	  					<label for="password">
@@ -98,7 +98,7 @@
 	  				</div>
 	  				</div>
   			</fieldset>
-  			<div class="col-3 m-auto">
+  			<div class="col-auto col-sm-5 col-md-3 m-auto">
                 <input class="btn btn-success btn-block" type="submit" value="Submit">
             </div>	
 		</form>
