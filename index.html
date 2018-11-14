@@ -7,6 +7,13 @@
 
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 	<link rel="stylesheet" href="bootstrap.css">
+    <style>
+        .container {
+            margin-top: 50px;
+            width: 100%;
+            max-width: 600px;
+        }
+    </style>
 </head>
 <body class="bg-light">
 
@@ -18,11 +25,11 @@
 																	<!-- Personal information -->
 			<fieldset>
 				<legend>Pesonal information</legend>
-                    <div class="form-row mb-3 ">
+                    <div class="form-row">
                     	<div class="col-12 col-lg-8">
                     		<input class="form-control" id="name" type="text" name="name" required>
                             <label for="name">Name</label>
-                            <div class="invalid-feedback" style="width: 100%;">
+                            <div class="invalid-feedback" style="width: 100%; margin-top: 0;">
                                 Your name is required.
                             </div>
                         </div>
@@ -30,7 +37,7 @@
                             <input class="form-control" id="surname" type="text" name="surname" required>                        	
                             <label for="surname">Surname</label>
 
-                            <div class="invalid-feedback" style="width: 100%;">
+                            <div class="invalid-feedback" style="width: 100%;  margin-top: 0;">
                                 Your Surname is required.
                             </div>
                         </div>
@@ -50,7 +57,7 @@
 	  				<div class="col-10 col-sm-6">
 	  					<input class="form-control" type="email" name="email" placeholder="example@yourmail.com" required>
 	  					<label for="email">Email</label>
-	  					<div class="invalid-feedback" style="width: 100%;">
+	  					<div class="invalid-feedback" style="width: 100%;  margin-top: 0;">
 	                        Your Email is required.
 	                    </div>
 	  				</div>
@@ -64,7 +71,7 @@
 	  							<i class="fas fa-info-circle"></i>
                              </a>
 	  					</label>
-	  					<div class="invalid-feedback" style="width: 100%;">
+	  					<div class="invalid-feedback" style="width: 100%;  margin-top: 0;">
 	                        The password is required.
 	                    </div>
 	  				</div>
