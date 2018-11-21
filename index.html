@@ -27,16 +27,15 @@
 				<legend>Pesonal information</legend>
                     <div class="form-row">
                     	<div class="col-12 col-lg-8">
+                    		<label for="name">Name</label>
                     		<input class="form-control" id="name" type="text" name="name" required>
-                            <label for="name">Name</label>
                             <div class="invalid-feedback" style="width: 100%; margin-top: 0;">
                                 Your name is required.
                             </div>
                         </div>
                         <div class="col-12 col-lg-4">
+                            <label for="surname">Surname</label>                        	
                             <input class="form-control" id="surname" type="text" name="surname" required>                        	
-                            <label for="surname">Surname</label>
-
                             <div class="invalid-feedback" style="width: 100%;  margin-top: 0;">
                                 Your Surname is required.
                             </div>
@@ -55,8 +54,8 @@
   				<legend>Registration</legend>
   				<div class="form-row mb-3">
 	  				<div class="col-10 col-sm-6">
+	  					<label for="email">Email</label>	  					
 	  					<input class="form-control" type="email" name="email" placeholder="example@yourmail.com" required>
-	  					<label for="email">Email</label>
 	  					<div class="invalid-feedback" style="width: 100%;  margin-top: 0;">
 	                        Your Email is required.
 	                    </div>
@@ -64,13 +63,13 @@
 	  				
 	  				<div class="col-10 col-sm-6">
 
-	  					<input class="form-control" type="password" name="password"  minlength="6" required>
 	  					<label for="password">
 	  						Password 
-	  						<a href="#" class="text-dark" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="Password must be at least 6 characters">
+	  						<a href="#" class="text-dark" data-toggle="popover" data-placement="top" data-trigger="hover" data-content="Password must be at least 6 characters">
 	  							<i class="fas fa-info-circle"></i>
                              </a>
 	  					</label>
+	  					<input class="form-control" type="password" name="password"  minlength="6" required>
 	  					<div class="invalid-feedback" style="width: 100%;  margin-top: 0;">
 	                        The password is required.
 	                    </div>
